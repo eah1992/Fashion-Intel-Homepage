@@ -1,0 +1,30 @@
+
+
+
+.carousel-caption {
+    background: rgba(0,0,0,0.3);
+    padding: 1em;
+    margin-bottom: 1em;
+}
+
+.navbar {
+    border-radius: 0px;
+}
+.blog-footer {
+  width: 100%auto;
+  height: 125px;
+  background:  black;
+}
+
+.list-group-item.active, .list-group-item.active:focus, .list-group-item.active:hover {
+    z-index: 2;
+    color: #fff;
+    background-color: #66ccff;
+    border-color: #66ccff;
+
+    .panel-body {
+      z-index: 2;
+      color: #fff;
+      background-color: #66ccff;
+      border-color: #66ccff;
+    }
